@@ -11,7 +11,12 @@ namespace GuessTheYearApp
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new MainPage())
+            {
+                BarBackgroundColor = Color.DeepSkyBlue,
+                BarTextColor = Color.White
+
+            };
         }
 
         protected override void OnStart()

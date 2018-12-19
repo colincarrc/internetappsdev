@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:GuessTheYearApp"
-             x:Class="GuessTheYearApp.MainPage">
+             x:Class="GuessTheYearApp.P1Q3C">
+    <ContentPage.Content>
+       
+            <StackLayout BackgroundColor="DeepSkyBlue">
 
-    <StackLayout BackgroundColor="DeepSkyBlue">
-        
-        <Label Text="Welcome to Guess The Year!"
-           TextColor="White"
-           FontSize="50"
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
-          
-        <Frame BackgroundColor="LightGray"
+                <Label Text="Correct"
+               TextColor="Green"
+               FontSize="50"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+
+                <Frame BackgroundColor="LightGray"
               HasShadow="True">
 
-            <StackLayout
+                    <StackLayout
                 Orientation="Vertical"
                 Spacing="15">
 
-                <Button Text="Enter" 
-                  Clicked="Button_Enter"
+                        <Button Text="Next Question" 
+                  Clicked="Button_Begin"
                   BackgroundColor="White"
                   TextColor="Black"
                   FontAttributes="Bold"
@@ -29,14 +29,9 @@
                   BorderWidth="2"
                   BorderColor="White"
                   HorizontalOptions="FillAndExpand"/>
-                
-                
+                    </StackLayout>
 
+                </Frame>
             </StackLayout>
-        
-        </Frame>
-
-    </StackLayout>
-
-
+        </ContentPage.Content>
 </ContentPage>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GuessTheYearApp.P2Q4C">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="DeepSkyBlue">
+
+            <Label Text="Correct"
+               TextColor="Green"
+               FontSize="50"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+
+            <Frame BackgroundColor="LightGray"
+              HasShadow="True">
+
+                <StackLayout
+                Orientation="Vertical"
+                Spacing="15">
+
+                    <Button Text="Next Question" 
+                  Clicked="Button_Begin"
+                  BackgroundColor="White"
+                  TextColor="Black"
+                  FontAttributes="Bold"
+                  FontSize="30"
+                  BorderRadius="10"
+                  BorderWidth="2"
+                  BorderColor="White"
+                  HorizontalOptions="FillAndExpand"/>
+                </StackLayout>
+
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

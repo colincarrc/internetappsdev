@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GuessTheYearApp.P2Q4">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="DeepSkyBlue">
+
+            <Image x:Name="image1" HeightRequest="280" WidthRequest="300" Aspect="AspectFit" Grid.Row="0" Grid.Column="0" BackgroundColor="DeepSkyBlue" >
+
+            </Image>
+
+            <Label Text="What Year did Albert Einstein Die?"
+               TextColor="White"
+               FontSize="50"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+
+            <Frame BackgroundColor="LightGray"
+              HasShadow="True">
+
+                <StackLayout
+                Orientation="Vertical"
+                Spacing="15">
+
+                    <Button Text="1955" 
+                  Clicked="Button_1"
+                  BackgroundColor="White"
+                  TextColor="Black"
+                  FontAttributes="Bold"
+                  FontSize="30"
+                  BorderRadius="10"
+                  BorderWidth="2"
+                  BorderColor="White"
+                  HorizontalOptions="FillAndExpand"/>
+
+                    <Button Text="1950" 
+                  Clicked="Button_2"
+                  BackgroundColor="White"
+                  TextColor="Black"
+                  FontAttributes="Bold"
+                  FontSize="30"
+                  BorderRadius="10"
+                  BorderWidth="2"
+                  BorderColor="White"
+                  HorizontalOptions="FillAndExpand"/>
+
+                    <Button Text="1961" 
+                  Clicked="Button_3"
+                  BackgroundColor="White"
+                  TextColor="Black"
+                  FontAttributes="Bold"
+                  FontSize="30"
+                  BorderRadius="10"
+                  BorderWidth="2"
+                  BorderColor="White"
+                  HorizontalOptions="FillAndExpand"/>
+
+                    <Button Text="1960" 
+                  Clicked="Button_4"
+                  BackgroundColor="White"
+                  TextColor="Black"
+                  FontAttributes="Bold"
+                  FontSize="30"
+                  BorderRadius="10"
+                  BorderWidth="2"
+                  BorderColor="White"
+                  HorizontalOptions="FillAndExpand"/>
+                </StackLayout>
+
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

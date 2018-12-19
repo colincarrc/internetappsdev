@@ -7,7 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessTheYearApp.Android", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessTheYearApp.UWP", "GuessTheYearApp\GuessTheYearApp.UWP\GuessTheYearApp.UWP.csproj", "{79A0AD53-5410-4DFC-A818-EEEC93035624}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessTheYearApp", "GuessTheYearApp\GuessTheYearApp\GuessTheYearApp.csproj", "{7F54BFC4-7F84-4B62-909E-279EE5056701}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GuessTheYearApp", "GuessTheYearApp\GuessTheYearApp\GuessTheYearApp.csproj", "{7F54BFC4-7F84-4B62-909E-279EE5056701}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3378CA6E-2063-49F5-87D0-638BF66F8310}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -10,6 +10,175 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Images\Period2\2000.webp" />
+    <None Remove="Images\Period2\80.jpg" />
+    <None Remove="Images\Period2\albert-einstein.jpg" />
+    <None Remove="Images\Period2\Columbine.jpg" />
+    <None Remove="Images\Period2\jfk.jpg" />
+    <None Remove="Images\Period2\moon.jpg" />
+    <None Remove="Images\Period2\nelson_mandela.jpeg" />
+    <None Remove="Images\Period3\2000s.jpg" />
+    <None Remove="Images\Period3\bostan.jpg" />
+    <None Remove="Images\Period3\crash.jpg" />
+    <None Remove="Images\Period3\fb.jpeg" />
+    <None Remove="Images\Period3\fb.jpg" />
+    <None Remove="Images\Period3\trade.jpg" />
+    <None Remove="Images\Period3\trump.jpg" />
+    <None Remove="Images\PeriodOne\albert-einstein.jpg" />
+    <None Remove="Images\PeriodOne\CitizenKane.jpg" />
+    <None Remove="Images\PeriodOne\d-day.jpg" />
+    <None Remove="Images\PeriodOne\Mahatma-Gandhi.jpg" />
+    <None Remove="Images\PeriodOne\prohibition.jpg" />
+    <None Remove="Images\PeriodOne\Queen_Victoria.jpg" />
+    <None Remove="Images\PeriodOne\titanic.jpg" />
+    <None Remove="Images\PeriodOne\wizard-of-oz.jpg" />
+    <None Remove="Images\PeriodOne\world-war-1.png" />
+    <None Remove="Images\PeriodOne\ww2.jpg" />
+    <None Remove="Images\PeriodOne\year.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Images\Period2\2000.webp" />
+    <EmbeddedResource Include="Images\Period2\80.jpg" />
+    <EmbeddedResource Include="Images\Period2\albert-einstein.jpg" />
+    <EmbeddedResource Include="Images\Period2\Columbine.jpg" />
+    <EmbeddedResource Include="Images\Period2\jfk.jpg" />
+    <EmbeddedResource Include="Images\Period2\moon.jpg" />
+    <EmbeddedResource Include="Images\Period2\nelson_mandela.jpeg" />
+    <EmbeddedResource Include="Images\Period3\2000s.jpg" />
+    <EmbeddedResource Include="Images\Period3\bostan.jpg" />
+    <EmbeddedResource Include="Images\Period3\crash.jpg" />
+    <EmbeddedResource Include="Images\Period3\fb.jpeg" />
+    <EmbeddedResource Include="Images\Period3\fb.jpg" />
+    <EmbeddedResource Include="Images\Period3\trade.jpg" />
+    <EmbeddedResource Include="Images\Period3\trump.jpg" />
+    <EmbeddedResource Include="Images\PeriodOne\CitizenKane.jpg" />
+    <EmbeddedResource Include="Images\PeriodOne\d-day.jpg" />
+    <EmbeddedResource Include="Images\PeriodOne\Mahatma-Gandhi.jpg" />
+    <EmbeddedResource Include="Images\PeriodOne\prohibition.jpg" />
+    <EmbeddedResource Include="Images\PeriodOne\Queen_Victoria.jpg" />
+    <EmbeddedResource Include="Images\PeriodOne\titanic.jpg" />
+    <EmbeddedResource Include="Images\PeriodOne\wizard-of-oz.jpg" />
+    <EmbeddedResource Include="Images\PeriodOne\world-war-1.png" />
+    <EmbeddedResource Include="Images\PeriodOne\ww2.jpg" />
+    <EmbeddedResource Include="Images\PeriodOne\year.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="3.1.0.697729" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="FirstPeriod.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="P1Q1.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="P1Q1C.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="P1Q2.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="P1Q2C.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="P1Q3.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="P1Q3C.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="P1Q4.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="P1Q4C.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="P1Q5.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="P1Q5C.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="P1W.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="P2Q1.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="P2Q1C.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="P2Q2.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="P2Q2C.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="P2Q3.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="P2Q3C.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="P2Q4.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="P2Q4C.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="P2Q5.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="P2Q5C.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="P3Q1.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="P3Q1C.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="P3Q2.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="P3Q2C.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="P3Q3.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="P3Q3C.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="P3Q4.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="P3Q4C.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="P3Q5.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="P3Q5C.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="PeriodPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SecondPeriod.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ThirdPeriod.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="P1Q5).xaml.cs">
+      <DependentUpon>P1Q5%29.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
 </Project>
